@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecommerce-react-coderhouse/static/css/main.25e243e8.css",
+    "main.js": "/ecommerce-react-coderhouse/static/js/main.20891ae2.js",
+    "static/js/787.f2587853.chunk.js": "/ecommerce-react-coderhouse/static/js/787.f2587853.chunk.js",
+    "index.html": "/ecommerce-react-coderhouse/index.html",
+    "main.25e243e8.css.map": "/ecommerce-react-coderhouse/static/css/main.25e243e8.css.map",
+    "main.20891ae2.js.map": "/ecommerce-react-coderhouse/static/js/main.20891ae2.js.map",
+    "787.f2587853.chunk.js.map": "/ecommerce-react-coderhouse/static/js/787.f2587853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25e243e8.css",
+    "static/js/main.20891ae2.js"
+  ]
+}
