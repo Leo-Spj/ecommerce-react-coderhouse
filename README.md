@@ -9,9 +9,11 @@ Despues, para crear proyectos normalmente:
 	npx create-react-app NombreDelProyecto
 
 > Tambien se puede inicializar React en una **capeta existente**:
->>  **Ojo**: Primero, ubicarse la capeta en cuestión
+>
+>  **Ojo**: Primero, ubicarse la capeta en cuestión.
 
-> 	npx create-react-app .
+ 	npx create-react-app .
+
 >Conviene cuando ya tienes creado un repositorio en GitHub.
 
 ------------
