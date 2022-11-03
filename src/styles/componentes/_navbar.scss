@@ -1,0 +1,13 @@
+.navbar_nav{
+    background-color: black;
+    padding: 1rem;
+    
+    p{
+        color: wheat;
+
+        &:hover{
+            color: rgb(196, 178, 147);
+            cursor: pointer;
+        }
+    }
+}
