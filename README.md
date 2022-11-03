@@ -24,13 +24,14 @@ Luego de instalado, para iniciar el servidor de desarrollo:
 	npm start
 
 ******
-##### Si el proyecto ya está creado y está en github:
+## Si el proyecto ya está creado y está en github:
 >Clonarlo y ejecutar:
 
 	npm install
 	npm init
+	npm start
 
-## GitHub Pages:
+# GitHub Pages:
 Instalar:
 
 	npm i gh-pages 
@@ -40,7 +41,7 @@ En el archivo `package.json` agregar justo antes de `dependencies`:
 
 	 "homepage": " link_githubPages ",
 
-Y en la primera linea dentro de `Scripts`:
+Y en la primera linea dentro de `Scripts` pegar:
 
 	"predeploy": "npm run build",
 	"deploy": "gh-pages -d build",
