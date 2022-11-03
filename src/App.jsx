@@ -1,4 +1,4 @@
-import Navbar from './componentes/Navbar.js';
+import Navbar from './componentes/Navbar.jsx';
 
 import './styles/_styles.scss';
 
