@@ -44,13 +44,13 @@ Y en la primera linea dentro de `Scripts`:
 	"deploy": "gh-pages -d build",
 
 
-####Importante:
+#### Importante:
 Cada vez que quiera **subir nuevos cambios al servidor** de github-pages:
 
 	 git push
 	 npm run deploy
 
-##OPCIONAL:
+## OPCIONAL:
 
 ###### SASS:
 Para trabajar con archivos sass:
