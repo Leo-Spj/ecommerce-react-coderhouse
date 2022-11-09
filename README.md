@@ -37,7 +37,9 @@ Instalar:
 	npm i gh-pages 
 
 En el archivo `package.json` agregar justo antes de `dependencies`:
-> Colocar el link que genera GitHub Pages en "link_githubPages":
+> Colocar en "link_githubPages" :  
+> Segun la estructura de este link: https://leo-spj.github.io/ecommerce-react-coderhouse/ 
+> : nombre de usuario, github.io, nombre del repositorio github.
 
 	 "homepage": " link_githubPages ",
 
@@ -55,7 +57,14 @@ Cada vez que quiera **subir nuevos cambios al servidor** de github-pages:
 
 ## OPCIONAL:
 
-###### SASS:
+##### SASS:
+
+https://www.npmjs.com/package/sass
+
 Para trabajar con archivos sass:
 
 	npm i sass
+
+##### React Bootstrap:
+
+https://react-bootstrap.github.io/

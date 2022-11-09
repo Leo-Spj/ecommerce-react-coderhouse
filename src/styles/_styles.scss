@@ -2,16 +2,29 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 //----------------
 //--- IMPORTAR ---
 //----------------
 
+// Bootstrap:
+@import "~bootstrap/scss/bootstrap";
+
 //VARIABLES UI
+@import "./componentes/_variables.scss";
 
 //COMPONENTES
 @import './componentes/_navbar.scss';
 
 //VISTAS
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+// ------
+body{
+    background-color: $White;
+    // Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+    font-family: 'Lexend', sans-serif;
+}
