@@ -3,7 +3,7 @@
 function ItemListContainer({ greeting }) {
     return (
         <div>
-            <h2>{greeting }</h2>
+            <h2 className="ItemListContainer_Bienvenida">{greeting }</h2>
         </div>
     )
 }

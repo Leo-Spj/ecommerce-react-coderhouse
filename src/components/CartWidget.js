@@ -1,6 +1,6 @@
 
 
-function CardWidget() {
+function CartWidget() {
   return (
       // este logo es de un proyecto de Frontend Mentor:
       <>
@@ -10,4 +10,4 @@ function CardWidget() {
   );
 }
 
-export default CardWidget;
+export default CartWidget;

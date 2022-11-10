@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import CardWidget from './CardWidget.js';
+import CartWidget from './CartWidget.js';
 import logo from '../logo.svg';
 
 
@@ -37,7 +37,7 @@ function NavbarPrin() {
             
           </Nav>
 
-            <CardWidget/> 
+            <CartWidget/> 
           
         </Navbar.Collapse>
       </Container>
