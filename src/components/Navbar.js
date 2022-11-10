@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import CardWidget from './CardWidget.js';
 import logo from '../logo.svg';
 
+
 function NavbarPrin() {
   return (
     // la estructura de este navbar es de react-bootstrap:
@@ -36,11 +37,13 @@ function NavbarPrin() {
             
           </Nav>
 
-          <CardWidget/> 
+            <CardWidget/> 
           
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    
   );
 }
 
