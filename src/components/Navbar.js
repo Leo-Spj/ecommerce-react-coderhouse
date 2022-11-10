@@ -12,15 +12,17 @@ function NavbarPrin() {
   return (
     // la estructura de este navbar es de react-bootstrap:
     <Navbar  className='navbar_color_fondo' expand="md">
-      <Container fluid className="d-flex justify-content-center">
+
+      <Container fluid className="d-flex justify-content-center navbar_ancho">
 
         <Navbar.Brand href="#"> 
 
-        <img src={logo} alt="icono" />
+          <img src={logo} alt="icono" />
           
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbarScroll"  />
+
         <Navbar.Collapse id="navbarScroll" >
           
             
@@ -40,6 +42,7 @@ function NavbarPrin() {
             <CartWidget/> 
           
         </Navbar.Collapse>
+
       </Container>
     </Navbar>
 

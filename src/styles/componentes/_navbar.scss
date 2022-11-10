@@ -1,3 +1,15 @@
 .navbar_color_fondo{
     background-color: $Light_grayish_blue;
 }
+
+.navbar_ancho{
+ //centrar:
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ //Ancho maximo 950px y centrado:
+ max-width: 950px;
+ margin: 0 auto;
+
+}
