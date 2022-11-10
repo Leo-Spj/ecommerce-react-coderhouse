@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import CardWidget from './CardWidget.js';
-
+import logo from '../logo.svg';
 
 function NavbarPrin() {
   return (
@@ -15,7 +15,7 @@ function NavbarPrin() {
 
         <Navbar.Brand href="#"> 
 
-          <CardWidget/> 
+        <img src={logo} alt="icono" />
           
         </Navbar.Brand>
 
@@ -36,6 +36,7 @@ function NavbarPrin() {
             
           </Nav>
 
+          <CardWidget/> 
           
         </Navbar.Collapse>
       </Container>
